@@ -7,7 +7,7 @@ const Users = () => {
     console.log(users);
 
     const handleUserDelete = id => {
-        fetch(`https://simple-crud-server-kohl.vercel.app/user/${id}`, {
+        fetch(`https://simple-crud-server-mu.vercel.app/user/${id}`, {
             method: 'DELETE',
         })
             .then(res => res.json())

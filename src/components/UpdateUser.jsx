@@ -14,7 +14,7 @@ const UpdateUser = () => {
         form.reset();
         console.log(newUser);
         if (user.name !== newUser.name || user.email !== newUser.email) {
-            fetch(`https://simple-crud-server-kohl.vercel.app/user/${user._id}`, {
+            fetch(`https://simple-crud-server-mu.vercel.app/user/${user._id}`, {
                 method: 'PUT',
                 headers: {
                     'Content-Type': 'application/json'

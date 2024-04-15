@@ -17,12 +17,12 @@ const router = createBrowserRouter([
   {
     path: "/users",
     element: <Users />,
-    loader: () => fetch('https://simple-crud-server-kohl.vercel.app/users')
+    loader: () => fetch('https://simple-crud-server-mu.vercel.app/users')
   },
   {
     path: "/user/:id",
     element: <UpdateUser />,
-    loader: ({ params }) => fetch(`https://simple-crud-server-kohl.vercel.app/user/${params.id}`),
+    loader: ({ params }) => fetch(`https://simple-crud-server-mu.vercel.app/user/${params.id}`),
   },
 
 ]);

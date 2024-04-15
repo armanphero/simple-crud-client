@@ -10,7 +10,7 @@ function App() {
     const newUser = { name, email };
     form.reset();
     console.log(newUser);
-    fetch('https://simple-crud-server-kohl.vercel.app/users', {
+    fetch('https://simple-crud-server-mu.vercel.app/users', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json'
